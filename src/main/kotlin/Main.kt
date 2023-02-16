@@ -2,7 +2,7 @@ fun main(args: Array<String>) {
     word()
     println(introduction("Sonia", 20))
     println(wordLength())
-    println(confirmName("Sonia"))
+    confirmName("Sonia")
 
 }
 
@@ -31,7 +31,7 @@ fun wordLength(): Int {
 // Function that confirms if it's my name or not
 fun confirmName(name: String){
 
-    if(name == "sonia"){
+    if(name == "Sonia"){
     println("that's me")
   }
   else{
