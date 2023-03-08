@@ -1,6 +1,7 @@
 fun main(args: Array<String>) {
     word()
-    println(introduction("Sonia", 20))
+    var result = introduction("Sonia", 20)
+    println(result)
     println(wordLength())
     confirmName("Sonia")
 
