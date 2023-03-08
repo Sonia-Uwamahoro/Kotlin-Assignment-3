@@ -2,7 +2,10 @@ fun main(args: Array<String>) {
     word()
     var result = introduction("Sonia", 20)
     println(result)
-    println(wordLength())
+    
+    var result1 = wordLength()
+    println(result1)
+    
     confirmName("Sonia")
 
 }
